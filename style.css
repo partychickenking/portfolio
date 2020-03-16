@@ -1,0 +1,445 @@
+html {
+    box-sizing: border-box;
+}
+
+html#homepage {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden; /*Makes sure you won't be able to scroll horizontally*/
+}
+
+/*BG for index.html*/
+body#homebg {
+    background-image: url("image/white_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVIGATION BAR*/
+nav ul {
+    list-style-type: none;
+    background-color: black;
+    border-bottom: solid 1px black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+}
+
+nav ul li a {
+    background: black;
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #222;
+}
+
+nav ul li a.active {
+    color: white;
+    background-color: #009899;
+}
+
+/*NAVIGATION ON THE RIGHT*/
+nav ul li.right {
+    display: inline;
+    float: right;
+}
+
+nav ul li a.logo {
+    background: black;
+    text-align: center;
+    display: block;
+    float: right;
+    padding: 14px 4px;
+    font-family: century gothic;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+/*NAVIGATIE VOOR BEDANKT HTML*/
+nav ul.dankul {
+    float: none;
+    text-align: center;
+}
+
+nav ul li.dankli {
+    display: inline;
+    float: none;
+    text-align: center;
+}
+
+nav ul li a.danka {
+    float: none;
+    display: inline;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: solid;
+    padding: 20px;
+}
+
+nav ul li a.danka:hover {
+    background-color: white;
+    color: black;
+}
+
+/*HEADERS*/
+h1.homeh1 {
+    text-align: center;
+    font-family: Microsoft Tai Le;
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    color: #fff;
+    font-family: century gothic;
+    font-size: 60px;
+}
+
+h1.dank {
+    margin: 200px 200px;
+    color: white;
+    text-align: center;
+    font-family: Script MT;
+    font-size: 40px;
+}
+
+h1.werk {
+    text-align: center;
+}
+
+h1.contact {
+    text-align: center;
+    position: relative;
+    left: 0%
+}
+
+h1.name {
+    color: #fff;
+    font-family: century gothic;
+    font-size: 60px;
+    position: relative;
+    top: 60px;
+    left: 25%;
+}
+
+h2.homep {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: script mt;
+    color: black;
+    font-size: 47px
+}
+
+h2.werktitright {
+    padding: 50px 50px 0px 0px;
+    font-size: 70px;
+    text-align: right;
+    margin: 10px 200px 0px;
+    background-color: #1d1d1d;
+}
+
+h2.werktitleft {
+    padding: 50px 0px 0px 50px;
+    font-size: 70px;
+    margin: 10px 200px 0px 200px;
+    background-color: #1d1d1d;
+}
+
+h2 {
+    color: #009899;
+    font-family: century gothic;
+    margin: 85px 200px 0px;
+}
+
+h2.firstinfo {
+    color: #009899;
+    font-family: century gothic;
+    margin: 70px 200px 0px;
+}
+
+h2.music {
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+}
+
+h3 {
+    float: right;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    bottom: 170px;
+    right: 170px;
+}
+
+/*ALINEA'S*/
+p.workright {
+    text-align: right;
+    padding: 100px 50px 80px 400px;
+    margin: 0px 200px 10px;
+    background-color: #1d1d1d;
+}
+
+p.workleft {
+    padding: 100px 400px 80px 50px;
+    margin: 0px 200px 10px;
+    background-color: #1d1d1d;
+}
+
+p.center {
+    text-align: center;
+}
+
+p {
+    margin: 50px 200px 50px;
+    padding: 10px;
+    color: #707070;
+    font-family: arial;
+}
+
+/*IMAGES*/
+img.logohome {
+    width: 100px;
+    display: block;
+    margin: 150px auto 0px;
+}
+
+img.logonav {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+img.selfie {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 0px 30px 0px 200px;
+}
+
+img.setup {
+    margin: 0px 200px 0px 0px;
+    width: 400px;
+    float: right;
+}
+
+img.logo {
+    float: right;
+    margin: 0px 200px 0px 0px;
+}
+
+img.hobby {
+    margin: 0px 40px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+img.band {
+    margin: 10px;
+    width: 231px;
+    height: 231px;
+}
+
+img.bandleft {
+    margin: 10px 10px 10px 250px;
+    width: 231px;
+    height: 231px;
+}
+
+img.bandright {
+    margin: 10px;
+    width: 231px;
+    height: 231px;
+}
+
+img.left {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 1000px;
+    margin: 40px 0px;
+}
+
+img.genderimg {
+    width: 50px;
+}
+
+img.right {
+    margin: 40px 0px;
+    width: 250px;
+    float: right;
+    position: relative;
+    right: 1000px;
+}
+
+img.wavesleft {
+    float: left;
+    width: 100px;
+    margin: 0px 0px 0px 250px;
+}
+
+img.wavesright {
+    float: right;
+    width: 100px;
+    margin: 0px 250px 0px 0px;
+}
+
+hr {
+    border-bottom: solid 1px #707070;
+    margin: 250px 300px 87px;
+}
+
+cite {
+    display: none;
+}
+
+/*begin of contact.html*/
+
+legend {
+    display: none;
+}
+
+label {
+    Display: block;
+}
+
+/*This will make sure the radio buttons are next to each others*/
+label.gender {
+    display: inline;
+}
+
+Fieldset {
+    border: none;
+}
+
+form {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+textarea {
+    height: 40px;
+    background: black;
+    width: 150px;
+    color: #818181;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid #6C6C6C;
+    transition: width 0.4s ease-in-out;
+}
+
+/* Makes sure browser won't make a blue border around the input */
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    border: none;
+    border-bottom: solid #6C6C6C;
+    width: 100%;
+    outline: none;
+}
+
+input.veld {
+    font-family: abel;
+    font-size: 20px;
+    color: #818181;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-bottom: solid #6C6C6C;
+    background-color: black;
+    transition: width 0.4s ease-in-out;
+}
+
+input.veld:focus {
+    width: 100%;
+    left: 20px;
+}
+
+input.veld:focus {
+    width: 100%;
+    left: 20px;
+}
+
+button {
+    width: 150px;
+    float: right;
+    background-color: black;
+    border-radius: 10%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: position 0.5s ease-in;
+    cursor: pointer;
+    /*pointer apears as if you can click the button*/
+}
+
+/*text on the button*/
+button span {
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    /*creates >>*/
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+    /*adds padding which makes 'verstuur' go to the left*/
+}
+
+button:hover span:after {
+    opacity: 1;
+    /*makes the >> visible*/
+    right: 0;
+    /*makes sure >> won't go too far*/
+}
+
+::placeholder {
+    font-family: abel;
+    font-size: 20px;
+    color: #818181;
+    opacity: 1;
+    /* Firefox changes opacity*/
+}

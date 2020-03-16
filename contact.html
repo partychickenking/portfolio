@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!--NAVIGATIE-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="werk.html">Werk</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li class="right"><img class="logonav" src="./image/mountains.png" alt="logo van bergen"></li>
+                <li class="right"><a href="index.html" class="logo">Inju Michorius</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--CONTENT en begin formulier-->
+        <h1 class="contact">Say hi!</h1>
+
+        <!--Voornaam en achternaam-->
+        <form action="bedankt.html">
+            <fieldset>
+                <legend>Personalia</legend>
+                <label for="firstname">Voornaam</label>
+                <input type="text" class="veld" id="firstname" placeholder="Voornaam" required>
+                <label for="lastname">Achternaam</label>
+                <input type="text" class="veld" id="lastname" placeholder="Achternaam" required>
+            </fieldset>
+
+            <!--Geslacht-->
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="male" class="gender"><img class="genderimg" src="./image/Man.png" alt="Man"></label>
+                <input type="radio" id="male" name="gender">
+                <label for="female" class="gender"><img class="genderimg" src="./image/vrouw.png" alt=""></label>
+                <input type="radio" id="female" name="gender">
+            </fieldset>
+
+            <!--Contactgegevens-->
+            <fieldset>
+                <legend>Contactinfo</legend>
+                <label for="email">E-mail</label>
+                <input type="email" class="veld" id="email" placeholder="E-mail" required>
+                <label for="phone">Mobiel</label>
+                <input type="tel" class="veld" id="phone" placeholder="Mobiel">
+                <label for="message">Bericht</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="typ een bericht..." required></textarea>
+            </fieldset>
+
+            <!--Submit button-->
+            <button type="submit"><span>Verstuur</span></button>
+
+        </form>
+    </main>
+</body>
+
+</html>
